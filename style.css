@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#420AA2;
+}
+
+header{
+    background:#1B9EC7;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+nav{
+    background:#AE1C1C;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+/* Page 1 */
+.left{
+    width:65%;
+    float:left;
+    padding:15px;
+    background:white;
+}
+
+.right{
+    width:30%;
+    float:right;
+    padding:15px;
+    background:#00AFFF;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/* Page 2 */
+.card{
+    width:48%;
+    float:left;
+    margin:1%;
+    background:white;
+    padding:10px;
+    overflow:auto;
+}
+
+.card img{
+    width:120px;
+    float:left;
+    margin-right:10px;
+}
+
+/* Forms */
+form{
+    background:white;
+    padding:20px;
+    max-width:600px;
+    margin:auto;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+
+button{
+    background:#7EE622;
+    color:white;
+    border:none;
+    padding:10px 20px;
+}
